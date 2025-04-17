@@ -2,6 +2,10 @@
 
 A data visualization dashboard for analyzing GitHub repositories. This tool provides insights into repository metrics, contributor trends, commit activity, programming language usage, and more.
 
+🚀 **Live Demo**: [GitHub Data Dashboard](https://web-production-e2a2f.up.railway.app/)
+
+---
+
 ## Features
 
 - **Repository Metrics**: View stars, forks, and open issues.
@@ -12,6 +16,8 @@ A data visualization dashboard for analyzing GitHub repositories. This tool prov
 - **Pull Request Metrics**: Understand pull request activity and contributors.
 - **Comparative Analysis**: Compare issues and pull requests over time.
 - **Date Range Filtering**: Filter data by custom date ranges.
+
+---
 
 ## Setup Instructions
 
@@ -35,6 +41,8 @@ streamlit run app.py
 
 Access the dashboard in your browser at [http://localhost:8501](http://localhost:8501).
 
+---
+
 ## GitHub API Authentication
 
 To avoid hitting GitHub's API rate limits, you can use a personal access token:
@@ -46,6 +54,8 @@ To avoid hitting GitHub's API rate limits, you can use a personal access token:
 - Without a token: **60 requests/hour**
 - With a token: **5,000 requests/hour**
 
+---
+
 ## Technologies Used
 
 - **Python**: Core programming language.
@@ -53,6 +63,8 @@ To avoid hitting GitHub's API rate limits, you can use a personal access token:
 - **Plotly**: Data visualization library for charts and graphs.
 - **Pandas**: Data manipulation and analysis.
 - **GitHub API**: Fetch repository data.
+
+---
 
 ## Project Structure
 
@@ -78,23 +90,15 @@ GitHub-Data-Dashboard/
 └── .gitignore                 # Git ignore rules
 ```
 
+---
+
 ## Example Usage
 
 1. **Select a Repository**: Enter a GitHub username/organization or repository URL in the sidebar.
 2. **Filter by Date**: Choose a start and end date for the analysis.
 3. **Explore Metrics**: View visualizations for contributors, commits, issues, pull requests, and more.
 
-## Screenshots
-
-### Dashboard Overview
-![Dashboard Overview](https://via.placeholder.com/800x400?text=Dashboard+Screenshot)
-
-### Commit Activity
-![Commit Activity](https://via.placeholder.com/800x400?text=Commit+Activity+Screenshot)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+---
 
 ## Contributing
 
