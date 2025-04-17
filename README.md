@@ -22,18 +22,29 @@ A **data visualization dashboard** for analyzing GitHub repositories. This tool 
 ## 🛠️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
+Clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/github-data-dashboard.git
-cd github-data-dashboard
+git clone https://github.com/spl3ndid/GitHub-Data-Dashboard.git
+cd GitHub-Data-Dashboard
 ```
 
-### 2️⃣ Install Dependencies
-Ensure you have Python installed. Then, install the required packages:
+### 2️⃣ Create a Virtual Environment (Optional but Recommended)
+Create and activate a virtual environment to isolate dependencies:
+```bash
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
+```
+
+### 3️⃣ Install Dependencies
+Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the Application
+### 4️⃣ Run the Application
 Start the Streamlit app:
 ```bash
 streamlit run app.py
