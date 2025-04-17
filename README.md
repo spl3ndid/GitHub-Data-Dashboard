@@ -19,6 +19,32 @@ A **data visualization dashboard** for analyzing GitHub repositories. This tool 
 
 ---
 
+## 📂 Project Structure
+
+```
+GitHub-Data-Dashboard/
+├── app.py                     # Main application file
+├── components/                # UI components for different analyses
+│   ├── __init__.py
+│   ├── commits.py             # Commit analysis
+│   ├── contributors.py        # Contributor analysis
+│   ├── issues.py              # Issue analysis
+│   ├── languages.py           # Language distribution
+│   ├── pulls.py               # Pull request analysis
+│   ├── repository_info.py     # Repository metrics
+│   ├── sidebar.py             # Sidebar UI
+├── utils/                     # Utility functions
+│   ├── __init__.py
+│   ├── data_processing.py     # Data filtering and transformation
+│   ├── github_api.py          # GitHub API interaction
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+├── LICENSE                    # License information
+└── .gitignore                 # Git ignore rules
+```
+
+---
+
 ## 🛠️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
@@ -74,32 +100,6 @@ To avoid hitting GitHub's API rate limits, you can use a **personal access token
 - 📊 **Plotly**: Data visualization library for charts and graphs.
 - 🐼 **Pandas**: Data manipulation and analysis.
 - 🖥️ **GitHub API**: Fetch repository data.
-
----
-
-## 📂 Project Structure
-
-```
-GitHub-Data-Dashboard/
-├── app.py                     # Main application file
-├── components/                # UI components for different analyses
-│   ├── __init__.py
-│   ├── commits.py             # Commit analysis
-│   ├── contributors.py        # Contributor analysis
-│   ├── issues.py              # Issue analysis
-│   ├── languages.py           # Language distribution
-│   ├── pulls.py               # Pull request analysis
-│   ├── repository_info.py     # Repository metrics
-│   ├── sidebar.py             # Sidebar UI
-├── utils/                     # Utility functions
-│   ├── __init__.py
-│   ├── data_processing.py     # Data filtering and transformation
-│   ├── github_api.py          # GitHub API interaction
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-├── LICENSE                    # License information
-└── .gitignore                 # Git ignore rules
-```
 
 ---
 
