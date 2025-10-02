@@ -1,4 +1,4 @@
-# 🌟 GitHub Data Dashboard
+#  GitHub Data Dashboard
 
 A **data visualization dashboard** for analyzing GitHub repositories. This tool provides insights into repository metrics, contributor trends, commit activity, programming language usage, and more.
 
@@ -6,7 +6,7 @@ A **data visualization dashboard** for analyzing GitHub repositories. This tool 
 
 ---
 
-## ✨ Features
+##  Features
 
 -  **Repository Metrics**: View stars, forks, and open issues.
 -  **Contributor Analysis**: Identify top contributors and their activity.
@@ -19,7 +19,7 @@ A **data visualization dashboard** for analyzing GitHub repositories. This tool 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 GitHub-Data-Dashboard/
@@ -45,16 +45,16 @@ GitHub-Data-Dashboard/
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 Clone the repository to your local machine:
 ```bash
 git clone https://github.com/spl3ndid/GitHub-Data-Dashboard.git
 cd GitHub-Data-Dashboard
 ```
 
-### 2️⃣ Create a Virtual Environment (Optional but Recommended)
+###  Create a Virtual Environment (Optional but Recommended)
 Create and activate a virtual environment to isolate dependencies:
 ```bash
 # Create a virtual environment
@@ -64,13 +64,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3️⃣ Install Dependencies
+###  Install Dependencies
 Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Application
+###  Run the Application
 Start the Streamlit app:
 ```bash
 streamlit run app.py
@@ -80,7 +80,7 @@ Access the dashboard in your browser at [http://localhost:8501](http://localhost
 
 ---
 
-## 🔑 GitHub API Authentication
+##  GitHub API Authentication
 
 To avoid hitting GitHub's API rate limits, you can use a **personal access token**:
 
@@ -93,7 +93,7 @@ To avoid hitting GitHub's API rate limits, you can use a **personal access token
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 -  **Python**: Core programming language.
 -  **Streamlit**: Interactive web application framework.
@@ -103,7 +103,7 @@ To avoid hitting GitHub's API rate limits, you can use a **personal access token
 
 ---
 
-## 💡 Example Usage
+##  Example Usage
 
 1. **Select a Repository**: Enter a GitHub username/organization or repository URL in the sidebar.
 2. **Filter by Date**: Choose a start and end date for the analysis.
@@ -111,7 +111,7 @@ To avoid hitting GitHub's API rate limits, you can use a **personal access token
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Follow these steps to contribute:
 
@@ -123,7 +123,7 @@ Contributions are welcome! Follow these steps to contribute:
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
