@@ -2,20 +2,20 @@
 
 A **data visualization dashboard** for analyzing GitHub repositories. This tool provides insights into repository metrics, contributor trends, commit activity, programming language usage, and more.
 
-🚀 **Live Demo**: [GitHub Data Dashboard](https://web-production-e2a2f.up.railway.app/)
+ **Live Demo**: [GitHub Data Dashboard](https://web-production-e2a2f.up.railway.app/)
 
 ---
 
 ## ✨ Features
 
-- 📊 **Repository Metrics**: View stars, forks, and open issues.
-- 👥 **Contributor Analysis**: Identify top contributors and their activity.
-- 📅 **Commit Frequency**: Visualize commit trends over time.
-- 🛠️ **Programming Language Distribution**: Analyze the languages used in the repository.
-- 🐛 **Issue Analysis**: Track issue status, closing times, and trends.
-- 🔀 **Pull Request Metrics**: Understand pull request activity and contributors.
-- 📈 **Comparative Analysis**: Compare issues and pull requests over time.
-- 📆 **Date Range Filtering**: Filter data by custom date ranges.
+-  **Repository Metrics**: View stars, forks, and open issues.
+-  **Contributor Analysis**: Identify top contributors and their activity.
+-  **Commit Frequency**: Visualize commit trends over time.
+-  **Programming Language Distribution**: Analyze the languages used in the repository.
+-  **Issue Analysis**: Track issue status, closing times, and trends.
+-  **Pull Request Metrics**: Understand pull request activity and contributors.
+-  **Comparative Analysis**: Compare issues and pull requests over time.
+-  **Date Range Filtering**: Filter data by custom date ranges.
 
 ---
 
@@ -95,11 +95,11 @@ To avoid hitting GitHub's API rate limits, you can use a **personal access token
 
 ## 🧰 Technologies Used
 
-- 🐍 **Python**: Core programming language.
-- 🎨 **Streamlit**: Interactive web application framework.
-- 📊 **Plotly**: Data visualization library for charts and graphs.
-- 🐼 **Pandas**: Data manipulation and analysis.
-- 🖥️ **GitHub API**: Fetch repository data.
+-  **Python**: Core programming language.
+-  **Streamlit**: Interactive web application framework.
+-  **Plotly**: Data visualization library for charts and graphs.
+-  **Pandas**: Data manipulation and analysis.
+-  **GitHub API**: Fetch repository data.
 
 ---
 
